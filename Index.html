@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- external JS link -->
+    <script src="js/main.js"></script>
+
+    <!-- JAVASCRIPT HEAD TAG -->
+<script></script>
+
+</head>
+    <body>
+    
+        <p id="ptag">This is my starter text</p>
+
+        <button onclick="alert('Hello bro')">Greeting</button>
+
+<!-- JAVASCRIPT TAG ALWAYS BEFORE CLOSING BODY TAG -->
+ <script>
+
+    /*console.log ('HELLO ANIME');
+
+    alert ('DUUUUDE what did you do');
+
+    confirm ('What up Boi.....Are you here');
+
+    prompt('Please enter your name', 'Ben 10')
+
+    // variables
+
+    var v = "Dude "; //string has quotes
+    var c =  'What is that?';//integer has no quotes
+    var x = v + c;
+    var newVar; //declaring new variable - undefined
+
+    console.log(newVar); //undefined
+    
+    var thisisaBoolean = true;
+    var thisisaBoolean = false;
+
+    console.log(thisisaBoolean); //false - boolean example
+
+    var thisisNothing = null; //not equal to undefined, value is empty
+
+    var array = ["hiking","camping","gaming","laying"]; // arrays contains more than one value
+
+      console.log(array);
+
+// object contains descriptions or details of an element 
+    var Xbox = {
+        manufacturer: "Microsoft", // property value pairs / key-value pairs
+        year: 2016,
+        colour: "black",
+    }
+
+//javascript date object
+    var date = new Date();
+    console.log(date);
+
+    console.log (x);
+
+    var stuff = ["toys","boy","goys"];
+    var stuff = new Array();
+
+    console.log (stuff);
+
+    var good_stuff = "anime";
+
+//add new item to my array using the push method
+//hobbies.push(good_stuff)
+    stuff[0] = good_stuff; //assign value to index
+
+    console.log(stuff);*/
+
+/*this is an example of hoisting
+  x;
+  console.log(x);
+  var x=0*/
+    
+/*let and const cannot be hoisted*/
+/*console.log(a);
+    var a=2;
+//console.log(c);
+  let c=2;
+  console.log(c);*/
+
+//var is a function scoped
+
+    /*function foo(){
+        
+        var i=5;
+
+    }
+     
+     console.log(i);
+
+//var is not block scope
+
+    var x=5;
+
+    if(true){
+        var x=6;
+    }
+     
+     console.log(x);*/
+
+      //targets element with id
+
+        var ptag= document.getElementById("ptag");
+      ptag.innerHTML = "The other text";
+      //console.log(ptag);
+ //this another way too mod the html document
+        document.getElementById("ptag").innerHTML = "This sucks dude";
+
+//update styling
+
+   ptag.style.backgroundColor = "blue";
+   document.getElementById("ptag").style.backgroundColor = "red";
+
+ </script>
+
+    </body>
+</html>

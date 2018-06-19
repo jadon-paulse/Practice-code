@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="div1" class="dove"></div>
+
+        <div id="div2" class="dove"></div>
+
+        <div id="div3" class="dove"></div>
+
+          <button id="button">Confirm</button>
+
+
+          <script>
+          
+          var button = document.getElementById("button");
+
+            button.onclick= function(){
+
+                var divs = document.getElementByClassName('dove');
+
+                    divs[0].style.backgroundColor = "yellow"
+                    divs[1].style.backgroundColor = "yellow"
+                    divs[2].style.backgroundColor = "yellow"
+
+
+            }
+          
+          </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+   <form>
+
+    <input type="text"/>
+    <input type="submit" onclick="myFunction()" value="submit"/>
+
+    <p id="jak"></p>
+
+   </form>
+
+        <script>
+                 //Challenge
+            //create an array of all your hobbies
+            //print the list to the screen using a for loop
+            //create an input that will allow you to add a new hobby to your list
+            //use javascript to validate your input
+            //the input must have minimum 3 characters and must be of type string
+            //create a button
+            //once the user clicks on the button, the new hobby you entered should 
+            //be added to your list of hobbies and displayed on the screen
+            //if the hobby is already on your list the user should be notified
+            //the input should be cleared and the hobby should not be added
+                
+          var hobbies = ["rugby,", "gaming,", "coding,", "researching on interesting topics,", "game design"];
+
+
+            function myFunction(){
+                hobbies.push("input");
+            }
+
+            for(let value of hobbies){
+                
+                document.write(value+" ");
+
+            }      
+
+            
+
+        </script>
+</body>
+</html>

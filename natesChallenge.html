@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <body>
+    
+        <form>
+
+            <select>
+
+                <option>cloudy</option>
+                <option>clearSky</option>
+
+            </select>
+
+        </form>
+
+            <input type="submit" onclick="checkClothes">
+
+      <script type="text/javascript">
+          'use strict';
+        //write a function checkClothes()
+        //add as many parameters to the function as you need
+        //the function must check the condition of the weather
+        //and decide what you must wear today
+        //the console.log must show your outfit
+
+            let cloudy = "rain";
+            let clearSky = "sunny";
+
+        function checkClothes(){
+            if (cloudy = "rain"){
+                let message = "Wear raincoat"; 
+            }
+        else if (clearSky = "sunny"){
+            let message = "Wear shorts";
+        }
+            console.log(message);
+        }
+
+        checkClothes();
+
+
+
+      </script>
+    </body>
+</html>

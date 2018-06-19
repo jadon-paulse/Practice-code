@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <body>
+    
+        <div id="div1" class="dove"></div>
+
+        <div id="div2" class="dove"></div>
+
+        <div id="div3" class="dove"></div>
+
+          <button id="button">Confirm</button>
+
+  <script>
+  
+    var button = document.getElementById("button");
+
+      button.onclick= function(){
+
+          
+
+          var div1 = document.getElementById("div1");
+
+        div1.innerHTML = "This is javasript";
+
+        div1.style.backgroundColor = "blue";
+
+        div1.style.border = "2px solid black";
+
+        div1.style.width= "300px";
+
+        div1.style.height = "50px";
+
+        div1.style.textAlign = "center";
+
+        div1.onmouseover = function(){
+
+            div1.style.backgroundColor = "green";
+
+        };
+
+        div1.onmouseleave = function(){
+            
+            div1.style.backgroundColor = "purple";
+
+        };
+
+        var div2 = document.getElementById("div2");
+
+        div2.innerHTML = "Maximum Effort";
+
+        div2.style.backgroundColor = "black";
+
+        div2.style.color = "yellow";
+
+        var div3 = document.getElementById("div3");
+
+        div3.innerHTML = "Javascript is an effort";
+
+        div3.style.backgroundColor = "red";
+
+        div3.style.padding = "30px";
+
+        div3.style.border = "2px solid black";
+
+
+      
+      };
+      
+      var divs = document.getElementsByClassName('dove');
+
+        divs[0].style.backgroundColor = "yellow";
+        divs[1].style.backgroundColor = "yellow";
+        divs[2].style.backgroundColor = "yellow";
+
+      document.write(divs.length);
+
+
+ 
+
+  </script>
+
+    </body>
+</html>

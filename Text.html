@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+      <input type="text" name="text" value="" id="myTxt">
+
+        <button onclick="btnClick()" id="butt">Click Me</button>
+
+    <script>
+    
+         //binds onclick event when the page loads
+
+         document.getElementById("butt").onclick = function(){
+
+              //Grabs value from input
+
+             var userInput = document.getElementById("myTxt").value;
+
+                if(userInput){
+
+                      //logs value to console
+
+                     console.log(userInput);
+
+                 } 
+                else if("!userInput"){
+
+                         alert("Insert text here NIGGA");
+
+                }
+                 else {
+
+                             alert("Scram Boi!");
+
+    
+    
+                 }
+         };
+
+                     function btnClick(){
+
+                         var userInput = document.getElementById("myTxt").value;
+
+                             //console.log(userInput);
+
+                     };
+
+     if(typeof(userInput) == "string"){
+        
+        console.log(userInput.length);
+
+         if((userInput.length) != 13){
+            console.log("invalid ID");
+         }
+
+     }
+      
+
+    </script>
+
+    </body>
+</html>
